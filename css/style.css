@@ -677,6 +677,17 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 18px;
 }
 /*--
+Contact Form Submit Success
+--*/
+#frmSuccess {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: x-large;
+  color: green;
+}
+
+/*--
 	wrapper-contact Start 
 --*/
 .address-block li {
