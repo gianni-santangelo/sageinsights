@@ -1,334 +1,435 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sage Insights</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
-    <!-- Js -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-    <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script> -->
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/owl.carousel.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/min/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.js"></script> -->
+<html lang="en">
+<head>
 
-    <!-- Google Map -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/google-map-init.js"></script> -->
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Sage Insights</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Providing business services and inspiration for busy companies">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 
 
-    <script src="js/main.js"></script>
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Ionic Icon Css -->
+  <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 
+</head>
 
-  </head>
-  <body>
+<body id="body">
 
+<!-- Header Start -->
+<header class="navigation">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg p-0">
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" alt="Logo">
+					</a>
 
+					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="ion-android-menu"></span>
+					</button>
 
-    <!-- Header Start -->
-  <header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- header Nav Start -->
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                  <img src="img/logo.png" alt="Logo">
-                </a>
-              </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <!-- <li><a href="work.html">Work</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Service</a></li> -->
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header><!-- header close -->
-        
-    <!-- Slider Start -->
-    <section id="slider">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-2">
-            <div class="block">
-              <h1 class="animated fadeInUp">A DIGITAL MARKETING & <br> INSIGHTS AGENCY</h1>
-              <p class="animated fadeInUp">We love the Web and the work we do. We work closely with our
+					<div class="collapse navbar-collapse ml-auto" id="navbarsExample09">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<!-- <li class="nav-item dropdown @@portfolio">
+								<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span class="ion-ios-arrow-down"></span></a>
+								<ul class="dropdown-menu" aria-labelledby="dropdown03">
+									<li><a class="dropdown-item @@portfolioFilter" href="portfolio.html">Portfolio Filter</a></li>
+									<li><a class="dropdown-item @@portfolioSingle" href="portfolio-single.html">Portfolio Single</a></li>
+
+									<li class="dropdown dropdown-submenu dropright">
+										<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+
+										<ul class="dropdown-menu" aria-labelledby="dropdown0301">
+											<li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+											<li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item @@service"><a class="nav-link" href="service.html">Service</a></li>
+							<li class="nav-item dropdown @@blog">
+								<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">Blog <span class="ion-ios-arrow-down"></span></a>
+								<ul class="dropdown-menu" aria-labelledby="dropdown05">
+									<li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
+									<li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
+									<li><a class="dropdown-item @@blogRS" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+									<li><a class="dropdown-item @@blogLS" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+									<li><a class="dropdown-item @@blogFW" href="blog-full-width.html">Blog Full Width</a></li>
+
+									<li class="dropdown dropdown-submenu dropleft">
+										<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button"
+											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+
+										<ul class="dropdown-menu" aria-labelledby="dropdown0501">
+											<li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+											<li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown @@pages">
+								<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
+									aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a>
+								<ul class="dropdown-menu" aria-labelledby="dropdown05">
+									<li><a class="dropdown-item @@about" href="about.html">About Us</a></li>
+									<li><a class="dropdown-item @@comingSoon" href="coming-soon.html">Coming Soon</a></li>
+									<li><a class="dropdown-item @@404" href="404.html">404 Page</a></li>
+									<li><a class="dropdown-item @@faq" href="faq.html">FAQ</a></li>
+									<li><a class="dropdown-item @@pricing" href="pricing.html">Pricing Table</a></li>
+								</ul> -->
+							</li>
+							<li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header><!-- header close -->
+
+<!-- Slider Start -->
+<section class="slider">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h1 class="animated fadeInUp">A DIGITAL MARKETING & <br> INSIGHTS AGENCY</h1>
+					<p class="animated fadeInUp">We love the Web and the work we do. We work closely with our
                 clients to deliver the best possible solutions for their needs</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Wrapper Start -->
-    <section id="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-7 col-sm-12">
-            <div class="block">
-              <div class="section-title">
-                <h2>About Us</h2>
-                <p>Sage Insights provides digital marketing and related services to a wide range of industries including e-commerce, consumer packaged goods, service industries, educational services, health care, and financial services.</p>
-              </div>
-              <p>We excel at providing exceptional service, insights, and value for our clients. We understand what fuels the industries we service and can pinpoint risks and opportunities. We provide actionable insights, so you and your team have the data you need to succeed. </p>
-            </div>
-          </div><!-- .col-md-7 close -->
-          <div class="col-md-5 col-sm-12">
-            <div class="block">
-              <img src="img/wrapper-img.png" alt="Img">
-            </div>
-          </div><!-- .col-md-5 close -->
-        </div>
-      </div>
-    </section>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-  <section id="feature">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-6">
-          <h2>WE BELIEVE IN GREAT IDEAS</h2>
-          <p>Great ideas start with great data, and at Sage Insights, we believe data should always be at the core.  Companies that rely on intuition or experience alone risk making costly mistakes, while those that use research and data to guide their decisions can achieve greater efficiency, innovation, and profitability.</p>
+<!-- Wrapper Start -->
+<section class="about section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="block">
+					<div class="section-title">
+						<h2>About Us</h2>
+						<p>Sage Insights provides digital marketing and related services to a wide range of industries including e-commerce, consumer packaged goods, service industries, educational services, health care, and financial services.</p>
+            </div>
+					<p>We excel at providing exceptional service, insights, and value for our clients. We understand what fuels the industries we service and can pinpoint risks and opportunities. We provide actionable insights, so you and your team have the data you need to succeed. </p>
+				</div>
+			</div><!-- .col-md-7 close -->
+			<div class="col-md-5">
+				<div class="block">
+					<img src="images/wrapper-img.png" alt="Img">
+				</div>
+			</div><!-- .col-md-5 close -->
+		</div>
+	</div>
+</section>
+
+<section class="feature bg-2">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-md-6">
+        <h2 class="section-subtitle">WE BELIEVE IN GREAT IDEAS</h2>
+        <p>Great ideas start with great data, and at Sage Insights, we believe data should always be at the core.  Companies that rely on intuition or experience alone risk making costly mistakes, while those that use research and data to guide their decisions can achieve greater efficiency, innovation, and profitability.</p>
           <p>Research and data are fundamental to strategic planning and market positioning. Understanding market trends, consumer behavior, and competitive landscapes allows businesses to identify opportunities and threats.</p>
           <p>Having a plan isn't enough. Understanding your business, customers, and competitive landscape is crucial in executing any great idea. Our industry experts know how to execute to achieve your goals and to position you for success.</p>
-          <!-- <a href="#" class="btn btn-view-works">View Works</a> -->
+        <!-- <a href="portfolio.html" class="btn btn-view-works">View Works</a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Start -->
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>We offer a wide range of marketing services custom-tailored to fit your needs. We select top industry experts that match your specific requirments and are dedicated to delivering the most value.</p>
         </div>
       </div>
     </div>
-  </section>
-        
-    <!-- Service Start -->
-    <section id="service">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h2>Our Services</h2>
-            <p>We offer a wide range of marketing services custom-tailored to fit your needs. We select top industry experts that match your specific requirments and are dedicated to delivering the most value.</p>
-          </div>
+    <div class="row ">
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-mouse"></i>
+          <h4>Pay-Per-Click Advertising (PPC)</h4>
+          <p>We manage the entire PPC process, including keyword selection, ad creation, and performance analysis. </p>
         </div>
-        <div class="row ">
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-mouse"></i>
-              <h4>Pay-Per-Click Advertising (PPC)</h4>
-              <p>We manage the entire PPC process, including keyword selection, ad creation, and performance analysis. </p>
-            </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-android-laptop"></i>
+          <h4>Web Design</h4>
+          <p>We offer web design and development services to create visually appealing, user-friendly, websites. </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-thumbsup"></i>
+          <h4>Social Media Marketing</h4>
+          <p>Engage with your audience in real time, build brand loyalty, and foster meaningful customer relationships. </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="service-item">
+          <i class="ion-android-search"></i>
+          <h4>Market Research</h4>
+          <p>In today's fast-paced business environment, makeing well-informed decisions is crucial for success. </p>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <a href="international-student-recruitment.html">
+          <div class="service-item">
+            <i class="ion-earth"></i>
+            <h4>International Recruitment</h4>
+            <p>Expand your global reach by bringing your institution directly to prospective customers — wherever they are</p>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-android-laptop"></i>
-              <h4>Web Design</h4>
-              <p>We offer web design and development services to create visually appealing, user-friendly, websites. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-thumbsup"></i>
-              <h4>Social Media Marketing</h4>
-              <p>Engage with your audience in real time, build brand loyalty, and foster meaningful customer relationships. </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-android-search"></i>
-              <h4>Market Research</h4>
-              <p>In today's fast-paced business environment, makeing well-informed decisions is crucial for success. </p>
-            </div>
-          </div>
-          <!-- <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-headphone"></i>
-              <h4>Logo Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-leaf"></i>
-              <h4>Development</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-planet"></i>
-              <h4>Brand Identity</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="service-item">
-              <i class="ion-earth"></i>
-              <h4>Brand Identity</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
-            </div>
-          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="icon ion-search"></i>
+          <h4>Search Engine Optimization</h4>
+          <p>We provide SEO services by conducting keyword research, optimizing on-page content, and improving site architecture </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-email"></i>
+          <h4>Email Marketing</h4>
+          <p>Email marketing campaigns designed to drive conversions </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-erlenmeyer-flask"></i>
+          <h4>Conversion Rate Optimization (CRO)</h4>
+          <p>Optimize your website or landing page to increase visitor conversion rates </p>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4>Start Up</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-headphone"></i>
+          <h4>Logo Design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-leaf"></i>
+          <h4>Development</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-planet"></i>
+          <h4>Brand Identity</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-earth"></i>
+          <h4>Brand Identity</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
         </div>
       </div> -->
-    </section>
-    <!-- Call to action Start -->
-    <section id="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="block">
-              <h2>Ready to grow your business?</h2>
-              <p>Let's chat about how Sage Insights can help you achieve your goals.</p>
-              <a class="btn btn-default btn-call-to-action" href="contact.html" >Contact Us</a>
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+
+<section class="call-to-action bg-1 section-sm overly">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h2 class="mb-3">Ready to grow your business?</h2>
+					<p>Let us know how we can help.</p>
+          <a class="btn btn-main btn-solid-border" href="contact.html">Contact Us</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Content Start -->
+<!-- <section class="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center">
+          <h2>Fun Facts About Us</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="block">
+          <ul class="counter-box clearfix">
+            <li>
+              <div class="counter-item">
+                <i class="ion-ios-chatboxes-outline"></i>
+                <h4 class="count" data-count="99">0</h4>
+                <span>Cups Of Coffee</span>
+              </div>
+            </li>
+            <li>
+              <div class="counter-item">
+                <i class="ion-ios-glasses-outline"></i>
+                <h4 class="count" data-count="45">0</h4>
+                <span>Article Written</span>
+              </div>
+            </li>
+            <li>
+              <div class="counter-item">
+                <i class="ion-ios-compose-outline"></i>
+                <h4 class="count" data-count="125">0</h4>
+                <span>Projects Completed</span>
+              </div>
+            </li>
+            <li>
+              <div class="counter-item">
+                <i class="ion-ios-timer-outline"></i>
+                <h4 class="count" data-count="200">0</h4>
+                <span>Combined Projects</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-5 col-md-offset-1">
+        <div class="testimonial-carousel text-center">
+          <div class="testimonial-slider owl-carousel">
+            <div>
+              <i class="ion-quote"></i>
+              <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+              <div class="user">
+                <img src="images/item-img1.jpg" alt="Pepole">
+                <p><span>Rose Ray</span> CEO-Themefisher</p>
+              </div>
+            </div>
+            <div>
+              <i class="ion-quote"></i>
+              <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+              <div class="user">
+                <img src="images/item-img1.jpg" alt="Pepole">
+                <p><span>Rose Ray</span> CEO-Themefisher</p>
+              </div>
+            </div>
+            <div>
+              <i class="ion-quote"></i>
+              <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+              <div class="user">
+                <img src="images/item-img1.jpg" alt="Pepole">
+                <p><span>Rose Ray</span> CEO-Themefisher</p>
+              </div>
+            </div>
+            <div>
+              <i class="ion-quote"></i>
+              <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+              <div class="user">
+                <img src="images/item-img1.jpg" alt="Pepole">
+                <p><span>Rose Ray</span> CEO-Themefisher</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Content Start -->
-    <!-- <section id="testimonial">
-      <div class="container">
-        <div class="row">
-          <div class="section-title text-center">
-            <h2>Fun Facts About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="block">
-              <ul class="counter-box clearfix">
-                <li>
-                  <div class="block">
-                    <i class="ion-ios-chatboxes-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="block">
-                    <i class="ion-ios-glasses-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="block">
-                    <i class="ion-ios-compose-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="block">
-                    <i class="ion-ios-timer-outline"></i>
-                    <h4 class="counter">20000</h4>
-                    <span>Cups Of Coffee</span>
-                  </div>
-                </li>
+    </div>
+  </div>
+</section> -->
 
-              </ul>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-6">
-            <div class="testimonial-carousel">
-              <div id="testimonial-slider" class="owl-carousel">
-                <div>
-                    <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                    <div class="user">
-                      <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
-                    </div>
-                </div>
-                <div>
-                  <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                    <div class="user">
-                      <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
-                    </div>
-                </div>
-                <div>
-                  <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                    <div class="user">
-                      <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
-                    </div>
-                </div>
-                <div>
-                  <img src="img/cotation.png" alt="IMG">
-                    <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
-                    <div class="user">
-                      <img src="img/item-img1.jpg" alt="Pepole">
-                      <p><span>Rose Ray</span> CEO-Themefisher</p>
-                    </div>
-                </div>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- footer Start -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- <div class="footer-manu">
+					<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+						<li><a href="service.html">How it works</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+					</ul>
+				</div> -->
+				<p class="copyright mb-0">Copyright <script>document.write(new Date().getFullYear())</script> Sage Insights LLC. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--Scroll to top-->
+<div id="scroll-to-top" class="scroll-to-top">
+	<span class="icon ion-ios-arrow-up"></span>
+</div>
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
 
 
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/SyoTimer/jquery.syotimer.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+    <script src="plugins/google-map/map.js"></script>
 
+    <script src="js/script.js"></script>
 
-
-
-
-
-    
-    <!-- footer Start -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="footer-manu">
-              <ul>
-                <!-- <li><a href="#">About Us</a></li> -->
-                <li><a href="contact.html">Contact us</a></li>
-                <!-- <li><a href="#">How it works</a></li>
-                <li><a href="#">Support</a></li> -->
-                <!-- <li><a href="#">Terms</a></li> -->
-              </ul>
-            </div>
-            <p>Copyright &copy; Sage Insights LLC. All rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-            
-            
-  <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-             -->
-    
     </body>
-</html>
+
+    </html>
+   
